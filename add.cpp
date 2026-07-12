@@ -7,8 +7,9 @@ int add(int a, int b)
 }
 
 int main()	
-{ 
-	std::cout<< "the addition value" << add(10,20)<<std::endl;
+{
+	auto add_va = add(20,30);
+	std::cout<< "the addition value" << add_va <<std::endl;
 
 	return 0;
 }
